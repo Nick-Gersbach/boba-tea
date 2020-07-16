@@ -1,0 +1,134 @@
+/* Global Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containter {
+  margin: 0 auto;
+  max-width: 960px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.current {
+    border-bottom: solid 1px red;
+}
+
+/* Navigation/Header Styling */
+
+header img.logo {
+    max-width: 80px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a { 
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-top: 2.7rem;
+    padding: 0 1.5rem;
+}
+
+/* Showcase Styling */
+
+#showcase {
+    background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(./img/boba-showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    color: white;
+}
+
+#showcase h1 {
+    font-size: 2.5rem;
+}
+
+#showcase h3 {
+    font-size: 1.5rem;
+}
+
+/* Home Info */
+
+#home-info .home-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+
+#home-info h3 {
+    text-align: center;
+    margin: 2rem 3rem;
+}
+
+#home-info .home-description .banned-ingredients{
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+
+#home-info .home-description .banned-ingredients ul li{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 2.3rem;
+ }
+
+ /* Home Page Menu Button */
+
+ #menu-button {
+     text-align: center;
+     padding: 1rem;
+     cursor: pointer;
+ }
+
+ footer {
+     background: #f4f4f4;
+     text-align: center;
+     height: 100%;
+ }
+
+.footer-text {
+    padding:  2rem;
+}
+
+
+
+
+
+
+
+
+
+
